@@ -1,5 +1,5 @@
 import { AppBar,Typography,IconButton,Button,List,ListItem,ListItemText,useMediaQuery, Toolbar, Drawer } from "@mui/material"
-import Menuicon from '@mui/icons-material/menu'
+import {Menuicon} from '@mui/icons-material/menu'
 import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
 function Navbar() {
