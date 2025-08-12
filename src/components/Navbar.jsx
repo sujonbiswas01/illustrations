@@ -1,6 +1,7 @@
 import { AppBar,Typography,IconButton,Button,List,ListItem,ListItemText,useMediaQuery, Toolbar, Drawer } from "@mui/material"
 import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
+import MenuIcon from "../assets/svg/MenuIcon";
 function Navbar() {
     const [open,setopen]= useState(false);
     const Theme=useTheme();
@@ -14,6 +15,7 @@ function Navbar() {
           <div>
        
             <IconButton color="inherit" onClick={()=>setopen(true)}>
+              <MenuIcon/>
            </IconButton>
           </div>
         ): (
