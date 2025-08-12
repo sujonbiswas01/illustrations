@@ -1,5 +1,4 @@
 import { AppBar,Typography,IconButton,Button,List,ListItem,ListItemText,useMediaQuery, Toolbar, Drawer } from "@mui/material"
-import {Menuicon} from '@mui/icons-material/menu'
 import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
 function Navbar() {
@@ -13,10 +12,9 @@ function Navbar() {
       <Toolbar>
         {IsMobile ?(
           <div>
+       
             <IconButton color="inherit" onClick={()=>setopen(true)}>
-              <Menuicon/>
-
-            </IconButton>
+           </IconButton>
           </div>
         ): (
           <>
